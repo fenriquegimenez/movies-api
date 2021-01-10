@@ -4,14 +4,9 @@ const app = express();
 
 // Importing configurations
 const config = require("./config/config");
+const moviesApi = require("./routes/movies");
 
-app.get("/", (req, res) => {
-  res.send("Hello world");
-});
-
-app.get("/json", (req, res) => {
-  res.json({ hello: "world" });
-});
+moviesApi(app);
 
 app.listen(config.port, () => {
   console.log("Listening hhtp://localhost:" + config.port);
