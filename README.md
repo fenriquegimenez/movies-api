@@ -6,9 +6,11 @@ Backend del proyecto Platzi video
 
 - Node js
 - Express js
+- MongoDB
 - git
 - Postman
 - VS Code
+- MongoDB Compass
 - zsh
 - nodemon
 - eslint
